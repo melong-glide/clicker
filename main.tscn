@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://dan87tpgfrh2n"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_blyqg"]
+[ext_resource type="PackedScene" uid="uid://dw0uflsh8aw5o" path="res://game.tscn" id="2_xacii"]
+[ext_resource type="PackedScene" uid="uid://cbm0t7i75f545" path="res://shop.tscn" id="3_wjghk"]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_blyqg")
+
+[node name="game" parent="." instance=ExtResource("2_xacii")]
+
+[node name="shop" parent="." instance=ExtResource("3_wjghk")]
+visible = false
+
+[connection signal="pressed" from="game/Button" to="." method="_on_main_button_pressed"]
+[connection signal="pressed" from="game/shop button" to="." method="_on_shop_button_pressed"]
+[connection signal="pressed" from="shop/brother button" to="." method="_brother_button_pressed"]
+[connection signal="pressed" from="shop/exit button" to="." method="_on_exit_button_pressed"]
+
+[editable path="game"]
+[editable path="shop"]

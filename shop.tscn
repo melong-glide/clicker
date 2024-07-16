@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cbm0t7i75f545"]
+
+[node name="shop" type="Node2D"]
+
+[node name="brother button" type="Button" parent="."]
+offset_left = 17.0
+offset_top = 10.0
+offset_right = 288.0
+offset_bottom = 109.0
+text = "Brother (+1 bobux per click)
+25 bobux
+"
+
+[node name="exit button" type="Button" parent="."]
+offset_left = 1030.0
+offset_top = 537.0
+offset_right = 1130.0
+offset_bottom = 624.0
+theme_override_font_sizes/font_size = 45
+text = "Exit"
