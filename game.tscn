@@ -26,3 +26,14 @@ offset_right = 1136.0
 offset_bottom = 632.0
 theme_override_font_sizes/font_size = 100
 text = "Shop"
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="licks per second" type="Label" parent="."]
+offset_left = 80.0
+offset_top = 407.0
+offset_right = 464.0
+offset_bottom = 466.0
+theme_override_font_sizes/font_size = 37
+text = "BOBUX PER SECOND: "

@@ -14,8 +14,11 @@ visible = false
 
 [connection signal="pressed" from="game/Button" to="." method="_on_main_button_pressed"]
 [connection signal="pressed" from="game/shop button" to="." method="_on_shop_button_pressed"]
+[connection signal="timeout" from="game/Timer" to="." method="_on_timer_timeout"]
 [connection signal="pressed" from="shop/brother button" to="." method="_brother_button_pressed"]
 [connection signal="pressed" from="shop/exit button" to="." method="_on_exit_button_pressed"]
+[connection signal="pressed" from="shop/auto_clicker" to="." method="_auto_clicker_pressed"]
+[connection signal="pressed" from="shop/faster auto clicker" to="." method="_on_faster_auto_clicker_pressed"]
 
 [editable path="game"]
 [editable path="shop"]

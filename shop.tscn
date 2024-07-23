@@ -18,3 +18,29 @@ offset_right = 1130.0
 offset_bottom = 624.0
 theme_override_font_sizes/font_size = 45
 text = "Exit"
+
+[node name="Label" type="Label" parent="."]
+offset_left = -1.0
+offset_top = 571.0
+offset_right = 202.0
+offset_bottom = 648.0
+theme_override_font_sizes/font_size = 56
+text = "Bobux: "
+
+[node name="auto_clicker" type="Button" parent="."]
+offset_left = 313.0
+offset_top = 10.0
+offset_right = 584.0
+offset_bottom = 109.0
+text = "L auto clicker(+1 bobux per sec)
+50 bobux
+"
+
+[node name="faster auto clicker" type="Button" parent="."]
+offset_left = 609.0
+offset_top = 10.0
+offset_right = 880.0
+offset_bottom = 109.0
+text = "Faster auto clicker(2x auto clicker speed/one time use)
+100 bobux
+"
